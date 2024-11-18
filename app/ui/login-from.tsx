@@ -1,4 +1,4 @@
-import { roboto, oswald, merriweather } from './font';
+import { merriweather } from './font';
 import { Button } from './button';
 import Image from 'next/image'
 export default function loginForm() {

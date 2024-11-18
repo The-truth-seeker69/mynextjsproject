@@ -13,7 +13,7 @@ export default function LatestInvoice() {
     return (
         <div className="rounded-xl bg-gray-50 p-6 shadow-sm w-full  ">
             <div className=" p-2 bg-white rounded-lg shadow-md">
-                {customersData.map((customer, index) => (
+                {customersData.map((customer) => (
                     <div key={customer.id} className="flex justify-between p-5  items-center border-b border-gray-300 last:border-b-0 ">
                         <div>
                             <h3 className={`${merriweather.className}`}>{customer.custName}</h3>
